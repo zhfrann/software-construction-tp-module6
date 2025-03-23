@@ -29,5 +29,7 @@ class Program
     static void Main(string[] args)
     {
         SayaTubeVideo sayaTubeVideo = new SayaTubeVideo("Tutorial Design By Contract – Muhammad Zhafran Ilham");
+        sayaTubeVideo.PrintVideoDetails();
+
     }
 }
