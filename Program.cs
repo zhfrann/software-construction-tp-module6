@@ -49,24 +49,24 @@ class Program
         sayaTubeVideo.PrintVideoDetails();
 
         // Uji pre-kondisi judul null
-        //try
-        //{
-        //    SayaTubeVideo videoInvalid = new SayaTubeVideo(null);
-        //}
-        //catch (Exception e)
-        //{
-        //    Console.WriteLine("Terdapat error: " + e.Message);
-        //}
+        try
+        {
+            SayaTubeVideo videoInvalid = new SayaTubeVideo(null);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("Terdapat error: " + e.Message);
+        }
 
         // Uji pre-kondisi judul lebih dari 100 karakter
-        //try
-        //{
-        //    SayaTubeVideo videoInvalid = new SayaTubeVideo(new string('A', 101));
-        //}
-        //catch (Exception e)
-        //{
-        //    Console.WriteLine("Terdapat error: " + e.Message);
-        //}
+        try
+        {
+            SayaTubeVideo videoInvalid = new SayaTubeVideo(new string('A', 101));
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("Terdapat error: " + e.Message);
+        }
 
         // Uji playCount hingga overflow
         try
