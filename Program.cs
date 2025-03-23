@@ -28,6 +28,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        SayaTubeVideo
-}
+        SayaTubeVideo sayaTubeVideo = new SayaTubeVideo("Tutorial Design By Contract – Muhammad Zhafran Ilham");
+    }
 }
